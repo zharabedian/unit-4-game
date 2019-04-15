@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+   
+    <title>The Dark Knight</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+<link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+  
+
+
+</head>
+
+<body>
+    <div class="container">
+        
+
+       
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <div class="row" id="infoRow">
+            
+            <div class="col-md-4">
+            <h3 class="labelBox">Target Number</h3>
+            <h2 id="targetscore"></h2>
+            </div>
+            
+            <div class="col-md-4">
+            <h3 class="labelBox">Current Score</h3>
+            <h2 id="scoreboard"></h2>
+            </div>
+            
+            <div class="col-md-4">
+            <h3 class="labelBox">Score</h3>
+            <h2 id="scoreboard2"></h2>
+
+            </div>
+
+        </div>
+
+        <div id="buttonRow" class="row">
+            <div class="col-md-3">
+                <input type="image" class="gem" id="firstbtn" src="./assets/images/diamond1.png" alt="Crystal One"/>
+            </div>
+
+            <div class="col-md-3">
+                <input type="image" class="gem" id="secondbtn" src="./assets/images/diamond2.png" alt="Crystal Two"/>
+            </div>
+
+            <div class="col-md-3">
+                <input type="image" class="gem" id="thirdbtn" src="./assets/images/diamond3.png" alt="Crystal Three"/>
+            </div>
+
+            <div class="col-md-3">
+                <input type="image" class="gem" id="fourthbtn" src="./assets/images/diamond4.png" alt="Crystal Four"/>
+            </div>
+        </div>
+    
+    </div>    
+    <div id="alertinstructions" class="row">
+        <br><br><br>
+    <div class="alert alert-danger" role="alert">
+       Listen up!
+       You will be given a random number at the start of the game. 
+
+       There are four crystals above. By clicking on a crystal you will add a specific amount of points to your total score. 
+
+       You win the game by matching your total score to a random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal. 
+      </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./assets/javascript/game.js"></script>
+
+</body>
+</html>
